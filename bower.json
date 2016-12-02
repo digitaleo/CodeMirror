@@ -1,13 +1,20 @@
 {
   "name": "CodeMirror",
   "moduleName": "CodeMirror",
-  "version": "5.22.1",
+  "version": "5.22.2",
   "main": [
-    "src/codemirror.js",
-    "mode/xml/xml.js",
+    "lib/codemirror.js",
     "lib/codemirror.css",
+    "mode/xml/xml.js",
     "theme/dracula.css"
   ],
   "license": "MIT",
-  "private": false
+  "private": false,
+  "ignore": [
+    "demo",
+    "node_modules",
+    "src",
+    "test",
+    "rollup.config.js"
+  ]
 }
