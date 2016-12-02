@@ -1,0 +1,13 @@
+{
+  "name": "CodeMirror",
+  "moduleName": "CodeMirror",
+  "version": "5.22.0",
+  "main": [
+    "lib/codemirror.js",
+    "mode/xml/xml.js",
+    "lib/codemirror.css",
+    "theme/dracula.css"
+  ],
+  "license": "MIT",
+  "private": false
+}
