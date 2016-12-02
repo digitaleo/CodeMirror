@@ -1,9 +1,9 @@
 {
   "name": "CodeMirror",
   "moduleName": "CodeMirror",
-  "version": "5.22.0",
+  "version": "5.22.1",
   "main": [
-    "lib/codemirror.js",
+    "src/codemirror.js",
     "mode/xml/xml.js",
     "lib/codemirror.css",
     "theme/dracula.css"
