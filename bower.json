@@ -1,12 +1,17 @@
 {
   "name": "CodeMirror",
   "moduleName": "CodeMirror",
-  "version": "5.22.2",
+  "version": "5.22.3",
   "main": [
     "lib/codemirror.js",
-    "lib/codemirror.css",
     "mode/xml/xml.js",
-    "theme/dracula.css"
+    "addon/search/search.js",
+    "addon/search/searchcursor.js",
+    "addon/search/jump-to-line.js",
+    "addon/dialog/dialog.js",
+    "lib/codemirror.css",
+    "theme/dracula.css",
+    "addon/dialog/dialog.css"
   ],
   "license": "MIT",
   "private": false,
